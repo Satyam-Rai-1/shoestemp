@@ -1,0 +1,147 @@
+/* .App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+:root{
+  --red:rgb(239, 8, 8);
+  --gray:rgb(203, 203, 203);
+
+}
+*{
+  margin: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body
+{
+  font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color: rgba(10, 26, 55, 0.6);
+color: #fff;
+}
+
+nav
+{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+}
+nav ul
+{
+  display: flex;
+  list-style: none;
+  gap:24px
+  
+}
+nav li
+{
+  cursor: pointer;
+}
+nav button
+{
+  all: unset;
+  padding: 6px 16px;
+  background-color: var(--red);
+  font-weight: 500;
+}
+
+
+/* Main start */
+
+.main{
+  display: flex;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(100vh-72px);
+  padding-top: 40px;
+  
+}
+.main-content
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* background-color: aqua; */
+}
+.main h1
+{
+  font-weight:800 ;
+  font-size: 85px;
+  line-height: 102px;
+}
+.main p
+{
+  font-weight:600 ;
+  color: var(--gray);
+  max-width: 400px;
+}
+.main-button
+{
+  display: flex;
+  gap: 40px;
+
+}
+/* .main-img
+{
+  background-color: #000;
+} */
+.main-button>.btn1
+{
+  
+  all: unset;
+  background-color: red;
+  padding: 6px 16px;
+  font-size: 20px;
+  
+  font-weight: 500;
+}
+.main-button>.btn2
+{
+  
+  font-size: 20px;
+  background: transparent;
+  padding: 6px 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.shop p
+{
+  font-size: 12 px;
+  margin-bottom:8px ;
+}
+.shop-icons
+{
+  display: flex;
+  gap: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav{
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+  
