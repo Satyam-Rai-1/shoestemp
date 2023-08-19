@@ -34,7 +34,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 
-#ScreenShots
+#Project demo
+
 ![image](https://github.com/Satyam-Rai-1/shoestemp/assets/114327173/6012d006-188c-4909-881d-ba8022195c0f)
 
 
